@@ -1,0 +1,6 @@
+c:\users\wecancodeit\documents\visual studio 2015\Projects\BankAccountCDenton\BankAccountCDenton\bin\Debug\BankAccountCDenton.exe.config
+c:\users\wecancodeit\documents\visual studio 2015\Projects\BankAccountCDenton\BankAccountCDenton\bin\Debug\BankAccountCDenton.exe
+c:\users\wecancodeit\documents\visual studio 2015\Projects\BankAccountCDenton\BankAccountCDenton\bin\Debug\BankAccountCDenton.pdb
+c:\users\wecancodeit\documents\visual studio 2015\Projects\BankAccountCDenton\BankAccountCDenton\obj\Debug\BankAccountCDenton.csprojResolveAssemblyReference.cache
+c:\users\wecancodeit\documents\visual studio 2015\Projects\BankAccountCDenton\BankAccountCDenton\obj\Debug\BankAccountCDenton.exe
+c:\users\wecancodeit\documents\visual studio 2015\Projects\BankAccountCDenton\BankAccountCDenton\obj\Debug\BankAccountCDenton.pdb
