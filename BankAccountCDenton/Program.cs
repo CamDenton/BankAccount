@@ -191,10 +191,9 @@ namespace BankAccountCDenton
                         receipt.WriteLine(userChecking.UserSocial);
                         receipt.WriteLine(userChecking.AccountNumber);
                         receipt.WriteLine(transaction);
-                        Menu();
-
-                        receipt.Close();
+  
                     }
+                    Menu();
                     break;
 
                     // Returns to the Main Menu
@@ -292,16 +291,15 @@ namespace BankAccountCDenton
             switch(userChoice)
             {
                 case 1:
-                    using (StreamWriter receipt = new StreamWriter("ReceiptSavings.txt"))
+                    using (StreamWriter receipt = new StreamWriter("ReceiptSavings.txt", true))
                     {
                         receipt.WriteLine(userSavings.UserName);
                         receipt.WriteLine(userSavings.UserSocial);
                         receipt.WriteLine(userSavings.AccountNumber);
                         receipt.WriteLine(transaction);
-                        Menu();
-
-                        receipt.Close();
+   
                     }
+                    Menu();
                     break;
 
                 case 2:
@@ -385,16 +383,15 @@ namespace BankAccountCDenton
             switch (userChoice)
             {
                 case 1:
-                    using (StreamWriter receipt = new StreamWriter("ReceiptReserve.txt"))
+                    using (StreamWriter receipt = new StreamWriter("ReceiptReserve.txt", true))
                     {
                         receipt.WriteLine(userReserve.UserName);
                         receipt.WriteLine(userReserve.UserSocial);
                         receipt.WriteLine(userReserve.AccountNumber);
                         receipt.WriteLine(transaction);
-                        Menu();
 
-                        receipt.Close();
                     }
+                    Menu();
                     break;
 
                 case 2:
